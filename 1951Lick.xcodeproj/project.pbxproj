@@ -6,11 +6,48 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		44948BF1141E81B6007C4C15 /* Render Report */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 44948BF2141E81B6007C4C15 /* Build configuration list for PBXAggregateTarget "Render Report" */;
+			buildPhases = (
+				44948BF5141E81CC007C4C15 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Render Report";
+			productName = "Render Report";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXFileReference section */
+		44948BEB141E804B007C4C15 /* FinalODReport.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = FinalODReport.tex; sourceTree = "<group>"; };
+		44948BEC141E804B007C4C15 /* Jul10Series2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jul10Series2.png; sourceTree = "<group>"; };
+		44948BED141E804B007C4C15 /* LICK_Orbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LICK_Orbit.png; sourceTree = "<group>"; };
+		44948BEE141E804B007C4C15 /* LICK_Orbit2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LICK_Orbit2.png; sourceTree = "<group>"; };
+		44948BEF141E804B007C4C15 /* OrbitDeterminationReportGraded.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = OrbitDeterminationReportGraded.pdf; sourceTree = "<group>"; };
+		44948BF0141E8075007C4C15 /* FinalODReport.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = FinalODReport.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		44948BD9141E7AEF007C4C15 = {
 			isa = PBXGroup;
 			children = (
+				44948BEA141E804B007C4C15 /* Report */,
 			);
+			sourceTree = "<group>";
+		};
+		44948BEA141E804B007C4C15 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				44948BEB141E804B007C4C15 /* FinalODReport.tex */,
+				44948BF0141E8075007C4C15 /* FinalODReport.pdf */,
+				44948BEC141E804B007C4C15 /* Jul10Series2.png */,
+				44948BED141E804B007C4C15 /* LICK_Orbit.png */,
+				44948BEE141E804B007C4C15 /* LICK_Orbit2.png */,
+				44948BEF141E804B007C4C15 /* OrbitDeterminationReportGraded.pdf */,
+			);
+			path = Report;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -32,9 +69,26 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				44948BF1141E81B6007C4C15 /* Render Report */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44948BF5141E81CC007C4C15 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		44948BE0141E7AEF007C4C15 /* Debug */ = {
@@ -44,6 +98,18 @@
 			name = Debug;
 		};
 		44948BE1141E7AEF007C4C15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		44948BF3141E81B6007C4C15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		44948BF4141E81B6007C4C15 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 			};
@@ -60,6 +126,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		44948BF2141E81B6007C4C15 /* Build configuration list for PBXAggregateTarget "Render Report" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44948BF3141E81B6007C4C15 /* Debug */,
+				44948BF4141E81B6007C4C15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
