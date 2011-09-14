@@ -13,3 +13,7 @@ build/
 
 xcuserdata
 *.xcuserstate
+
+*.synctex.gz
+*.log
+*.aux
