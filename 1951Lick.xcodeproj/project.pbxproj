@@ -42,12 +42,20 @@
 			children = (
 				44948BEB141E804B007C4C15 /* FinalODReport.tex */,
 				44948BF0141E8075007C4C15 /* FinalODReport.pdf */,
-				44948BEC141E804B007C4C15 /* Jul10Series2.png */,
-				44948BED141E804B007C4C15 /* LICK_Orbit.png */,
-				44948BEE141E804B007C4C15 /* LICK_Orbit2.png */,
+				8D92B2D414223F4700725501 /* Images */,
 				44948BEF141E804B007C4C15 /* OrbitDeterminationReportGraded.pdf */,
 			);
 			path = Report;
+			sourceTree = "<group>";
+		};
+		8D92B2D414223F4700725501 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				44948BEC141E804B007C4C15 /* Jul10Series2.png */,
+				44948BED141E804B007C4C15 /* LICK_Orbit.png */,
+				44948BEE141E804B007C4C15 /* LICK_Orbit2.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
