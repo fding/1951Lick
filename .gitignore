@@ -17,6 +17,7 @@ xcuserdata
 *.synctex.gz
 *.log
 *.aux
+*.toc
 
 Report/FinalODReport.pdf
 
