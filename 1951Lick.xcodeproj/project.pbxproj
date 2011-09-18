@@ -18,6 +18,17 @@
 			name = "Render Report";
 			productName = "Render Report";
 		};
+		44BC1C0D142278EE0095AD52 /* GOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 44BC1C0E142278EE0095AD52 /* Build configuration list for PBXAggregateTarget "GOS" */;
+			buildPhases = (
+				44BC1C11142278F40095AD52 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = GOS;
+			productName = GOS;
+		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXFileReference section */
@@ -27,12 +38,30 @@
 		44948BEE141E804B007C4C15 /* LICK_Orbit2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LICK_Orbit2.png; sourceTree = "<group>"; };
 		44948BEF141E804B007C4C15 /* OrbitDeterminationReportGraded.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = OrbitDeterminationReportGraded.pdf; sourceTree = "<group>"; };
 		44948BF0141E8075007C4C15 /* FinalODReport.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = FinalODReport.pdf; sourceTree = "<group>"; };
+		44BC1BFC142278DE0095AD52 /* GlobalObservationSummary.tex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GlobalObservationSummary.tex; sourceTree = "<group>"; };
+		44BC1BFE142278DE0095AD52 /* Jul10Series1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jul10Series1.png; sourceTree = "<group>"; };
+		44BC1BFF142278DE0095AD52 /* Jul10Series2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jul10Series2.png; sourceTree = "<group>"; };
+		44BC1C00142278DE0095AD52 /* Jul10Series3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jul10Series3.png; sourceTree = "<group>"; };
+		44BC1C01142278DE0095AD52 /* Jul16Series1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jul16Series1.png; sourceTree = "<group>"; };
+		44BC1C02142278DE0095AD52 /* Jul16Series2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jul16Series2.png; sourceTree = "<group>"; };
+		44BC1C03142278DE0095AD52 /* Jul16Series3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jul16Series3.png; sourceTree = "<group>"; };
+		44BC1C04142278DE0095AD52 /* Jul16Series4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jul16Series4.png; sourceTree = "<group>"; };
+		44BC1C05142278DE0095AD52 /* Jul16Series5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jul16Series5.png; sourceTree = "<group>"; };
+		44BC1C06142278DE0095AD52 /* Jul25Series1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jul25Series1.png; sourceTree = "<group>"; };
+		44BC1C07142278DE0095AD52 /* Jul25Series2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jul25Series2.png; sourceTree = "<group>"; };
+		44BC1C08142278DE0095AD52 /* Jul3Series1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jul3Series1.png; sourceTree = "<group>"; };
+		44BC1C09142278DE0095AD52 /* Jul3Series2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jul3Series2.png; sourceTree = "<group>"; };
+		44BC1C0A142278DE0095AD52 /* Jul8Series2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jul8Series2.png; sourceTree = "<group>"; };
+		44BC1C0B142278DE0095AD52 /* Jul8Series3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jul8Series3.png; sourceTree = "<group>"; };
+		44BC1C0C142278DE0095AD52 /* Jul8Series4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jul8Series4.png; sourceTree = "<group>"; };
+		44BC1C12142279230095AD52 /* GlobalObservationSummary.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GlobalObservationSummary.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		44948BD9141E7AEF007C4C15 = {
 			isa = PBXGroup;
 			children = (
+				44BC1BFB142278DE0095AD52 /* GOS */,
 				44948BEA141E804B007C4C15 /* Report */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +75,38 @@
 				44948BEF141E804B007C4C15 /* OrbitDeterminationReportGraded.pdf */,
 			);
 			path = Report;
+			sourceTree = "<group>";
+		};
+		44BC1BFB142278DE0095AD52 /* GOS */ = {
+			isa = PBXGroup;
+			children = (
+				44BC1BFC142278DE0095AD52 /* GlobalObservationSummary.tex */,
+				44BC1C12142279230095AD52 /* GlobalObservationSummary.pdf */,
+				44BC1BFD142278DE0095AD52 /* LSPR_annotated_images */,
+			);
+			path = GOS;
+			sourceTree = "<group>";
+		};
+		44BC1BFD142278DE0095AD52 /* LSPR_annotated_images */ = {
+			isa = PBXGroup;
+			children = (
+				44BC1BFE142278DE0095AD52 /* Jul10Series1.png */,
+				44BC1BFF142278DE0095AD52 /* Jul10Series2.png */,
+				44BC1C00142278DE0095AD52 /* Jul10Series3.png */,
+				44BC1C01142278DE0095AD52 /* Jul16Series1.png */,
+				44BC1C02142278DE0095AD52 /* Jul16Series2.png */,
+				44BC1C03142278DE0095AD52 /* Jul16Series3.png */,
+				44BC1C04142278DE0095AD52 /* Jul16Series4.png */,
+				44BC1C05142278DE0095AD52 /* Jul16Series5.png */,
+				44BC1C06142278DE0095AD52 /* Jul25Series1.png */,
+				44BC1C07142278DE0095AD52 /* Jul25Series2.png */,
+				44BC1C08142278DE0095AD52 /* Jul3Series1.png */,
+				44BC1C09142278DE0095AD52 /* Jul3Series2.png */,
+				44BC1C0A142278DE0095AD52 /* Jul8Series2.png */,
+				44BC1C0B142278DE0095AD52 /* Jul8Series3.png */,
+				44BC1C0C142278DE0095AD52 /* Jul8Series4.png */,
+			);
+			path = LSPR_annotated_images;
 			sourceTree = "<group>";
 		};
 		8D92B2D414223F4700725501 /* Images */ = {
@@ -79,6 +140,7 @@
 			projectRoot = "";
 			targets = (
 				44948BF1141E81B6007C4C15 /* Render Report */,
+				44BC1C0D142278EE0095AD52 /* GOS */,
 			);
 		};
 /* End PBXProject section */
@@ -96,6 +158,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "cd $SRCROOT/Report\n/usr/local/texlive/2010/bin/x86_64-darwin/pdflatex FinalODReport.tex";
+		};
+		44BC1C11142278F40095AD52 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd $SRCROOT/GOS\n/usr/local/texlive/2010/bin/x86_64-darwin/pdflatex GlobalObservationSummary.tex";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -126,6 +201,20 @@
 			};
 			name = Release;
 		};
+		44BC1C0F142278EE0095AD52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44BC1C10142278EE0095AD52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -146,6 +235,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		44BC1C0E142278EE0095AD52 /* Build configuration list for PBXAggregateTarget "GOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44BC1C0F142278EE0095AD52 /* Debug */,
+				44BC1C10142278EE0095AD52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
